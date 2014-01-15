@@ -41,7 +41,6 @@ and `:day`.
 
 ## TODOs
 
-* Reconsider `end_date` before `start_date` in `compute` API arguments
 * Add more API options
 * Better tests?
 * Clean up code to make it easier to contribute
