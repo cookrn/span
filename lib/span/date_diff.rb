@@ -11,8 +11,16 @@ module Span
     end
 
     def initialize( end_date_input , start_date_input )
-      @end_date   = end_date_input.to_date
-      @start_date = start_date_input.to_date
+      end_date   = end_date_input.to_date
+      start_date = start_date_input.to_date
+
+      if start_date > end_date
+        @end_date   = start_date
+        @start_date = end_date
+      else
+        @end_date   = end_date
+        @start_date = start_date
+      end
     end
 
     def build_diff_hash

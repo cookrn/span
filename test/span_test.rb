@@ -51,6 +51,16 @@ describe Span do
         :week  => 3,
         :day   => 4
       }
+    ],
+    [
+      '27/01/1963', # January 27th
+      '14/01/2014', # January 14th
+      {
+        :year  => 50,
+        :month => 11,
+        :week  => 2,
+        :day   => 5
+      }
     ]
   ].each do | example |
     it "expected returns #{ example[ 1 ] }" do
