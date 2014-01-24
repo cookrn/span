@@ -2,6 +2,8 @@
 
 [![Gem Version](https://badge.fury.io/rb/span.png)](http://badge.fury.io/rb/span)
 [![Build Status](https://travis-ci.org/cookrn/span.png?branch=master)](https://travis-ci.org/cookrn/span)
+[![Code Climate](https://codeclimate.com/github/cookrn/span.png)](https://codeclimate.com/github/cookrn/span)
+[![Coverage Status](https://coveralls.io/repos/cookrn/span/badge.png)](https://coveralls.io/r/cookrn/span)
 
 Calculate the differences between two dates. A few notes:
 
