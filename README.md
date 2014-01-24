@@ -1,6 +1,7 @@
 # Span
 
 [![Gem Version](https://badge.fury.io/rb/span.png)](http://badge.fury.io/rb/span)
+[![Build Status](https://travis-ci.org/cookrn/span.png?branch=master)](https://travis-ci.org/cookrn/span)
 
 Calculate the differences between two dates. A few notes:
 
