@@ -1,5 +1,7 @@
 # Span
 
+[![Gem Version](https://badge.fury.io/rb/span.png)](http://badge.fury.io/rb/span)
+
 Calculate the differences between two dates. A few notes:
 
 * It is calendar-correct, meaning that it respects non-30-day months
