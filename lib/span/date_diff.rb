@@ -102,7 +102,6 @@ module Span
       num_of_part = 0
       part_singular = :week
       part_next_method = :next_day
-      check_from = check_from.prev_day
 
       loop do
         check = check_from.send part_next_method

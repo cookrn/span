@@ -8,8 +8,8 @@ describe Span do
       {
         :year  => 1,
         :month => 11,
-        :week  => 1,
-        :day   => 0
+        :week  => 0,
+        :day   => 6
       }
     ],
     [
@@ -19,7 +19,7 @@ describe Span do
         :year  => 0,
         :month => 10,
         :week  => 2,
-        :day   => 2
+        :day   => 1
       }
     ],
     [
@@ -28,8 +28,8 @@ describe Span do
       {
         :year  => 0,
         :month => 10,
-        :week  => 2,
-        :day   => 0
+        :week  => 1,
+        :day   => 6
       }
     ],
     [
@@ -38,12 +38,12 @@ describe Span do
       {
         :year  => 0,
         :month => 7,
-        :week  => 4,
-        :day   => 0
+        :week  => 3,
+        :day   => 6
       }
     ],
     [
-      '25/03/2013', # March 25th
+      '26/03/2013', # March 25th
       '01/01/2012', # January 1st
       {
         :year  => 1,
@@ -59,11 +59,21 @@ describe Span do
         :year  => 50,
         :month => 11,
         :week  => 2,
-        :day   => 5
+        :day   => 4
+      }
+    ],
+    [
+      '27/01/1963', # January 27th
+      '27/02/1963', # February 27th
+      {
+        :year  => 0,
+        :month => 1,
+        :week  => 0,
+        :day   => 0
       }
     ]
   ].each do | example |
-    it "expected returns #{ example[ 1 ] }" do
+    it "diff #{ example[ 0 ] } #{ example[ 1 ] }" do
       check_date = Date.parse example[ 0 ]
       birth_date = Date.parse example[ 1 ]
       expected   = example[ 2 ]
