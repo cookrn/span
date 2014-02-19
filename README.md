@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/cookrn/span.png?branch=master)](https://travis-ci.org/cookrn/span)
 [![Code Climate](https://codeclimate.com/github/cookrn/span.png)](https://codeclimate.com/github/cookrn/span)
 [![Coverage Status](https://coveralls.io/repos/cookrn/span/badge.png)](https://coveralls.io/r/cookrn/span)
+[![Dependency Status](https://gemnasium.com/cookrn/span.png)](https://gemnasium.com/cookrn/span)
 
 Calculate the differences between two dates. A few notes:
 
